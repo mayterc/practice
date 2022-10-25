@@ -1,0 +1,134 @@
+:root{
+    --color_main: #0E2336;
+    --color_letter: #ffffff;
+    --color_turquesa: #088460;
+    --color_fondo:#0C373D;
+    --letter_span: #F8C654;
+}
+
+body{
+    background-color: var(--color_main);    
+    margin: 0;
+}
+
+
+h1,h2,h3, p{
+    color:var(--color_letter);
+}
+h1{
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+p{
+    font-size: 1rem;
+}
+span{
+    color:var(--letter_span);
+}
+/* Banner*/
+.banner{
+    height: 95vh;
+    display:flex;
+    display: flex;
+    gap:2rem;
+    margin-left:  8rem;
+
+}
+.banner-imagenes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--color_turquesa);
+    gap:1.5rem;
+    padding: 1.3rem;
+
+    
+}
+.imagen{
+    width: 130px;
+    height: 110px;
+
+}
+
+.banner-texto{
+    width: 400px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.banner-btn{
+    background-color: var(--letter_span);
+    border:none;
+    border-radius: 2rem;
+    padding: .8rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center; /*alinar texto del boton*/
+    align-self: flex-end; /*alinear el boton on flex*/
+
+}
+
+.imagen-banner{
+    background-color: var(--color_fondo);
+    width: 500px;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.imagen-banner_max{
+width: 450px;
+height: 570px;
+margin-left: -1rem;
+margin-top: 4rem;
+}
+
+/*SECTION SECOND*/
+
+.seccion2{
+    margin-left: 1.5rem;
+}
+.contenedor_section2{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.textoSection2{
+    margin: 80px 80px 50px 150px; /*top, right, bottom, left*/
+}
+.titulo{
+    display: flex;
+}
+.titulo_imagen{
+    height: 30px;
+    display: flex;
+    align-self: center;
+    margin-top: 2rem;
+    margin-left: -2.5rem;
+}
+.parrafo_Section2{
+    
+    background-color: var(--color_turquesa);
+    padding: 2.5rem;
+    padding-top: .5rem;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: -70px;
+    left: 750px;
+    text-align: left;
+}
+.comillas{
+    height: 60px;
+    float: right;
+}
+.img_section2{
+
+    width: 70%;
+    /* margin-right: 8rem; */
+    float: left;
+    margin-left: 0;
+    
+}
